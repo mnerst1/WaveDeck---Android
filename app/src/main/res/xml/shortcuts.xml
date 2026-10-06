@@ -1,0 +1,1 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"><shortcut android:shortcutId="library" android:enabled="true" android:icon="@drawable/ic_wave" android:shortcutShortLabel="@string/library"><intent android:action="android.intent.action.VIEW" android:targetPackage="dev.wavedeck" android:targetClass="dev.wavedeck.MainActivity" /></shortcut></shortcuts>

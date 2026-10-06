@@ -1,0 +1,71 @@
+{
+  "unit_tests": [
+    {
+      "suite": "dev.wavedeck.DatabaseTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "cases": [
+        "queueAndResumeSavedAtomically",
+        "playlistCrudAndDuplicateAdd",
+        "incrementalScanPreservesUserDataAndPrunesMissing",
+        "exactlyTwoDesignSystemsAndLegacyPreferencesMigrate",
+        "migrationPreservesExistingLibrary",
+        "settingsPersistWithDataStore"
+      ]
+    },
+    {
+      "suite": "dev.wavedeck.DomainTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "cases": [
+        "playlistRoundTripAndUnknownEntries",
+        "durationSort",
+        "offsetsAreConsistentWithSeeking",
+        "ambiguousPlaylistNamesSkipped",
+        "plainLyricsDoNotBecomeTimed",
+        "repeatSemantics",
+        "multipleTimestampsAndFractionWidths",
+        "queueReorderAndBounds",
+        "duplicateDetectionIsNondestructive",
+        "multiTermSearchAcrossMetadata"
+      ]
+    },
+    {
+      "suite": "dev.wavedeck.LocaleTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "cases": [
+        "placeholdersMatch",
+        "allThreeLocalesHaveCompleteKeyCoverage"
+      ]
+    }
+  ],
+  "device_tests": [
+    {
+      "suite": "dev.wavedeck.PlaybackTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "realAudioQueueControlsAndBackgroundPlayback"
+      ]
+    },
+    {
+      "suite": "dev.wavedeck.SmokeTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "designSwitchTransformsLibraryChromeAndPlayer",
+        "onboardingCanOpenOfflineApp"
+      ]
+    }
+  ],
+  "device": "Pixel 10a AVD, Android 17, x86_64"
+}

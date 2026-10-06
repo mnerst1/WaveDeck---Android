@@ -1,0 +1,1 @@
+<resources><style name="Theme.WaveDeck" parent="Theme.AppCompat.DayNight.NoActionBar"><item name="android:windowLightStatusBar">false</item><item name="android:windowActionModeOverlay">true</item><item name="android:fontFamily">sans</item></style><color name="icon_background">#102B30</color></resources>

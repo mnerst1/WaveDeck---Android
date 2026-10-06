@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#102B30" android:padding="16dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="WaveDeck" android:textColor="#B9F56B" android:textSize="14sp" />
+    <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:gravity="center_vertical" android:ellipsize="end" android:maxLines="2" android:text="@string/no_track" android:textColor="#FFFFFF" android:textSize="18sp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp" android:orientation="horizontal">
+        <Button android:id="@+id/widget_toggle" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:text="@string/play" />
+        <Button android:id="@+id/widget_next" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:text="@string/next" />
+    </LinearLayout>
+</LinearLayout>
